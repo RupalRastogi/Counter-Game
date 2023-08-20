@@ -14,17 +14,22 @@
 
         <div class="text-neutral-950 text-4xl font-bold">Increment And Decrement</div>
         
-        <div class="flex bg-stone-300 text-5xl rounded-lg space-x-7 gap-3">
+        <div class="flex bg-stone-300 text-5xl rounded-lg space-x-7 gap-8">
+           
+            <!-- negative button -->
 
-            <button class="border-r-4 border-zinc-800 px-8">
+            <!-- button have special attribute "onclick" jab jese button click hoga onclick mai jo bhi function define hoga vo activate hojaega -->
+
+            <button onclick="decrement()" class="border-r-4 border-zinc-800 px-8">
                 <i class="fa-solid fa-minus"></i></button>
 
-            <div class="font-bold px-2">
+            <div class="font-bold px-2" id="counter">
                  <!-- starting mai zero hoga -->
                 0
             </div>
-
-            <button class="border-l-4 border-zinc-800 px-8">
+            
+             <!-- positive button -->
+            <button onclick="increment()" class="border-l-4 border-zinc-800 px-8">
             <i class="fa-solid fa-plus"></i>
             </button>
 
@@ -34,5 +39,6 @@
      <!-- font awsome library -->
    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
 
+    <script src="index.js"></script>
 </body>
 </html>
