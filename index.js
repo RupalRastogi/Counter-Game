@@ -1,6 +1,6 @@
 const countValue = document.querySelector('#counter');  //COUNTER --> ID
 
-const increment =  function inc(){
+  function increment(){
     // countValue mai jo bhi text hai vo innerhtml ke throgh hme mil jaega but in the form of string
       // hme number ke form mai chahie--> use parseInt
       // get the value from UI
@@ -13,7 +13,7 @@ const increment =  function inc(){
   };
 
 
-  const decrement = function dec(){
+   function decrement(){
     // get the value
     let value = parseInt(countValue.innerText);
     // update the value
