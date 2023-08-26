@@ -14,6 +14,8 @@ The app is created using HTML for structure, Tailwind CSS for styling, and JavaS
 ## Contributing
 Found a bug or want to contribute? Feel free to open an issue or submit a pull request!
 
+## Here it is, give it a try
+https://counter-gameapp.netlify.app/
 
 
 
