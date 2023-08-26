@@ -10,7 +10,7 @@ this is made using HTML , Tailwind and Javascript
 - Decrease the value by clicking the "-" button.
 - The value is displayed in the middle
 
-- ## Behind the Scenes
+ ## Behind the Scenes
 The app is created using HTML for structure, Tailwind CSS for styling, and JavaScript for functionality. The JavaScript code listens for clicks on the buttons and updates the displayed value accordingly.
 
 ## Contributing
